@@ -1,15 +1,24 @@
 ---
 layout: page
-title: About
+title: サーバー概要
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## BenriCraft サーバーとは
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+[@supermomonga](https://twitter.com/supermomonga) が運営しているプライベート Minecraft サーバーです
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## サーバー情報
+
+| サーバー接続先 | darui.io:25565 |
+| ユーザ管理 | ホワイトリスト方式 |
+| サーバー | [SpigotMC](https://www.spigotmc.org/) |
+| RAM | 1GB |
+
+
+## 特徴
+
+[SpigotMC](https://www.spigotmc.org/) をベースに、[Rukkit](https://github.com/supermomonga/rukkit) という独自開発プラグインを導入しています。
+
+これは JRuby によるサーバー挙動の拡張を行うことができるようになるもので、BenriCraft サーバーに導入されている拡張は[RukkitPlugins](https://github.com/supermomonga/rukkit-plugins)リポジトリにて確認できます。
+
