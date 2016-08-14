@@ -17,3 +17,7 @@ github_username: benricraft
 
 # Build settings
 markdown: kramdown
+
+category_names:
+  guide: 'ゲームガイド'
+  document: '開発者ドキュメント'
