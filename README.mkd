@@ -1,1 +1,22 @@
-# BenriCraft website
+# BenriCraft ウェブサイト
+
+## Requirements
+
+- Ruby
+- some gems
+  - `bundler`
+
+## ローカルでの起動
+
+1. `git clone git@github.com:benricraft/benricraft.github.io.git`
+1. `cd ./benricraft.github.io.git`
+1. `bundle install`
+1. `bundle exec jekyll serve`
+1. `http://localhost:4000` で閲覧できます！
+1. 便利
+
+## ローカルでの編集（GUI）
+
+1. ローカルで起動する
+1. `http://localhost:4000/admin` にアクセスする
+1. 便利
